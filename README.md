@@ -20,3 +20,9 @@ Unit Tests
 
 I have not used any framework like junit just simple assertions with different use cases in my mind.
 
+How did the Unit Tests helped? 
+
+So I was testing the board class, while testing i came to know that while cell reset I forgot to add decrement isFilled, hence it was breaking the test for isBoardFilled == true. UT helped me kinda test different components making my design really robust in working. 
+
+
+
